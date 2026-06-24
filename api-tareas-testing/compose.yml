@@ -1,0 +1,9 @@
+services:
+  api-tareas:
+    image: ghcr.io/calidadygestion2026-edu/api-tareas:latest
+    container_name: api-tareas-testing
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: testing
