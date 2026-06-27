@@ -9,7 +9,7 @@ describe('API de tareas', () => {
     expect(Array.isArray(response.body)).toBe(true);
   });
 
-  test('GET /tareas/1 debe devolver la tarea con id 1', async () => {
+  test('GET /tareas/1 debe devolver la tarea con id 1', async () => { //se puede provocar fallo en controllers
     const response = await request(app).get('/tareas/1');
 
     expect(response.statusCode).toBe(200);

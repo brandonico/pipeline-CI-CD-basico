@@ -1,5 +1,5 @@
 const tareas = [
-    { id: 1, titulo: 'Aprender Git' },
+    { id: 1, titulo: 'Aprender Git' },  //fallo prueba 2
     { id: 2, titulo: 'Aprender Express' }
 ];
 
